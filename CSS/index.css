@@ -30,6 +30,7 @@
   border: 2.5px solid #931d25;
 }
 .dropdown .dropdown-link {
+  transition: opacity 2s ease-in;
   width: 100%;
   text-align: center;
   padding: 15px 0;
@@ -42,6 +43,7 @@
   background-color: #931d25;
 }
 .dropdown .dropdown-hidden {
+  opacity: 0;
   display: none;
 }
 .tabs {
